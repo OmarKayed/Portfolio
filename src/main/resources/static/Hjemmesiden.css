@@ -1,0 +1,55 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-gap: 10px;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    grid-column: 1 / 4;
+    font-size: 40px;
+    color: black;
+    font-family: "Helvetica Neue";
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+
+.about {
+    background-color: lightyellow;
+    padding: 10px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#Jobs {
+    font-size: 30px;
+}
+
+.text-area {
+    background-color: lightblue;
+    padding: 10px;
+    grid-column: 2;
+    grid-row: 2;
+}
+.Pictures {
+    background-color: powderblue;
+    padding: 10px;
+    grid-column: 3;
+    grid-row: 2;
+
+}
+a:hover {
+    background-color: yellow;
+}
